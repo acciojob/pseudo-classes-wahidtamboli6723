@@ -8,21 +8,32 @@ article p:first-child {
 article p:last-child {
 		color: red;
 }
-
- 
-
-.gr{
-	background-color:grey;
-	width:50%;
-	 padding:10px;
-}
-.pi{
-	background-color:pink;
-	width:50%;
-	 padding:10px;
-}
-.li{
+li:nth-child(odd){
 	background-color:white;
 	width:50%;
 	 padding:10px;
 }
+
+li:nth-child(3)
+{
+background-color:pink;
+	width:50%;
+	 padding:10px;	
+}
+
+li:nth-child(even)
+{
+background-color:grey;
+	width:50%;
+	 padding:10px;
+}
+
+
+
+
+ 
+
+
+	
+
+	
